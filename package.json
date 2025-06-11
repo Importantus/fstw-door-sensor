@@ -1,13 +1,15 @@
 {
   "name": "fstw-door-sensor",
   "module": "index.ts",
-  "type": "module",
   "scripts": {
-    "start": "bun run src/index.ts"
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
   },
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   },
   "peerDependencies": {
     "typescript": "^5"
