@@ -1,15 +1,2 @@
 # fstw-door-sensor
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.6. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Das Repo ist hierhin umgezogen: https://git.mylab.th-luebeck.de/fstw/door-sensor
